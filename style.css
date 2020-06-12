@@ -3,3 +3,175 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+#top {
+    background-color: #FFDBAA;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px 50px 25px;
+}
+
+#PRATitle {
+    color: #553100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    grid-column: 2/10;
+    grid-row: 2;
+}
+
+#homeNav{
+    grid-column: 12/13;
+    grid-row: 2/3;
+}
+
+#flightsNav{
+    grid-column: 14/15;
+    grid-row: 2 /3;
+}
+
+#supportNav{
+    grid-column: 16/17;
+    grid-row: 2 /3;
+}
+
+#loginNav{
+    grid-column:18/19;
+    grid-row: 2/3;
+}
+
+.navButtons {
+    background-color:#805215;
+    border: solid;
+    border-color: #805215;
+    border-width: 5px 2px;
+    box-sizing: content-box;
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 2px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#bottom {
+    background-color: #D4A76A;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D4A76A;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 25px 200px 25px 1fr 1fr;
+    display: grid;
+    height: 100vh;
+}
+
+.infoBox {
+    background-color: white;
+    border-width: 1px;
+    box-shadow: 1px 1px 10px hsl(0, 0%, 9%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    height: 200px;               
+    width: 300px;
+    /* text-align: center; */
+}
+
+.infoBoxPara {
+    font-weight: bold;
+    padding: 0px 20px;
+    margin-top: 0px;
+    margin-bottom: 13px;
+}
+
+.bottomH2Titles {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px
+}
+
+.infoBoxButton {
+    background-color: #805215;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    box-sizing: content-box;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+    /* justify-content: center;
+    align-items: center; */
+    display:block;
+    margin:auto;
+}
+
+#flightsInfoBox {
+    grid-column: 3/4;
+    grid-row: 2;
+}
+
+#groupTripsInfoBox {
+    grid-column: 5/6;
+    grid-row: 2;
+}
+
+#discountFlightsInfoBox {
+    grid-column: 7/8;
+    grid-row: 2;
+}
+
+#aboutUsInfoBox {
+    grid-column: 2 / 9;
+    grid-row: 4;
+    height: 160px;               
+    width: 1050px;
+} 
+
+
+
+/*
+    <h1 id=''> PUERTO RICO AIRLINES</h1>
+    <button class="navButtons" type="button" id=""> HOME</button>
+    <button class="navButtons" type="button" id=""> FLIGHTS</button>
+    <button class="navButtons" type="button" id=""> SUPPORT</button>
+    <button class="navButtons" type="button" id=""> LOGIN</button>
+    </div>
+<div id="bottom">
+      <div class="infoBox" id="flightsInfoBox">
+        <h2 class ="bottomH2Titles" id="flightsH2">Flights</h2>
+        <p> Come check out our sweet flights!</p>
+        <p>Direct flights available daily!</p>
+        <button class="infoBoxButton" type="button" id=""> Lets go</button>
+    
+      </div><div class="infoBox" id="groupTripsInfoBox">
+        <h2 class ="bottomH2Titles" id="groupTripssH2">Group Trips</h2>
+        <p> We offer greate group rates! For</p>
+        <p>families with 4 members to huge</p>
+        <p>gatherings with 50+!</p>
+        <button class="infoBoxButton" type="button" id=""> Group Rates</button>
+      </div>
+
+      <div class="infoBox" id="discountFlightsInfoBox">
+        <h2 class ="bottomH2Titles" id="discountFlightsH2">Discount Flights</h2>
+        <p>Discount flighs available for</p>
+        <p>individuals! Single chair filler tickets</p>
+        <p>for low rates!</p>
+        <button class="infoBoxButton" type="button" id=""> Jump In</button>
+      </div>
+
+      <div class="infoBox" id="aboutUsInfoBox">
+        <h2 class ="bottomH2Titles" id="aboutUsH2">About Us</h2>
+        <p>Lorem ipsum dolor si amet, consectetur adipisicing elit, sed do iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+        <p>nostrud exercitation ullamco laboris nisi ut alipuip ex ea commodo consequal. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat!</p>
+        <p> nulla paritatur. Excepteur sint occaeat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button class="infoBoxButton" type="button" id=""> Learn More</button>
+      </div>*/
+
